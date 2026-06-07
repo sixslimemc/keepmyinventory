@@ -3,9 +3,10 @@
 
 scoreboard objectives add _keepmyinventory dummy
 
-
-
-# DEBUG
-scoreboard players reset *init _keepmyinventory
+# PLAYER TAGS:
+# .items
+# .xp
+# .let_vanish
+# .drop_vanish
 
 execute unless score *init _keepmyinventory matches 1 run function keepmyinventory:_/sc/init
