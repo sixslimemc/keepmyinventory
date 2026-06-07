@@ -1,0 +1,4 @@
+
+dispatch minecraft:storage[keepmyinventory:hook] to struct Hook {
+
+}

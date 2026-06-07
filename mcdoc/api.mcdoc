@@ -1,0 +1,7 @@
+
+
+dispatch minecraft:storage[keepmyinventory:api] to struct Api {
+
+}
+
+

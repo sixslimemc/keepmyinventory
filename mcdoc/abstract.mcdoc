@@ -1,0 +1,8 @@
+
+dispatch minecraft:storage[keepmyinventory:abstract/in] to struct AbstractIn {
+
+}
+
+dispatch minecraft:storage[keepmyinventory:abstract/out] to struct AbstractOut {
+
+}

@@ -1,0 +1,8 @@
+
+dispatch minecraft:storage[keepmyinventory:in] to struct In {
+
+}
+
+dispatch minecraft:storage[keepmyinventory:out] to struct Out {
+
+}
