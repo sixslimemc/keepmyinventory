@@ -1,6 +1,6 @@
 {
   "pack": {
-    "description": "TODO: DESC",
+    "description": "Set inventory-keeping rules per-player.",
     "min_format": 101,
     "max_format": 101
   }
