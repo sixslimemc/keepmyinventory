@@ -14,4 +14,4 @@ execute if entity @s[tag=keepmyinventory.drop_vanish] run data modify storage de
 scoreboard players reset *pre_death.restore_vanish _keepmyinventory
 
 # DEBUG:
-tellraw @a ["PRE: ", {'storage':'deathdef:hook', 'nbt':'pre_call'}]
+tellraw @a ["PRE: ", {'storage':'deathdef:hook', 'nbt':'pre_call.xp'}]
