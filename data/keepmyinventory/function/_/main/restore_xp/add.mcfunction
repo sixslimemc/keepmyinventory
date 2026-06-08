@@ -4,3 +4,4 @@
 #--------------------
 
 $xp add @s $(xp) points
+stopsound @a player entity.player.levelup

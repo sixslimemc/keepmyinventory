@@ -4,4 +4,5 @@
 #--------------------
 
 function keepmyinventory:_/main/restore_xp/add with storage deathdef:hook pre_call
-stopsound @a player entity.player.levelup
+
+data modify storage deathdef:hook pre_call.xp set value 0
