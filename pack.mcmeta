@@ -1,6 +1,6 @@
 {
   "pack": {
-    "description": "Set inventory-keeping rules per-player.",
+    "description": "Per-player 'keep_inventory'.",
     "min_format": 101,
     "max_format": 101
   }
