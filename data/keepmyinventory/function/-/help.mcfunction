@@ -1,6 +1,6 @@
 #> keepmyinventory :-/ help
 
-data modify storage six:in sourced_message.lines append value {text:"", color:white, extra:[{text:"Use "}, {text:"/tag", color:blue}, {text:" to add & remove these tags to players:"}]}
+data modify storage six:in sourced_message.lines append value {text:"", color:white, extra:[{text:"Use "}, {text:"/tag", color:blue}, {text:" to add the following tags:"}]}
 data modify storage six:in sourced_message.lines append value {text:"", color:aqua, extra:[{text:" "}, {text:"keepmyinventory.items", color:yellow}, {text:" - ", color:gray}, {text:"Items are kept on death."}]}
 data modify storage six:in sourced_message.lines append value {text:"", color:aqua, extra:[{text:" "}, {text:"keepmyinventory.xp", color:yellow}, {text:" - ", color:gray}, {text:"XP is kept on death."}]}
 data modify storage six:in sourced_message.lines append value {text:"", color:aqua, extra:[{text:" "}, {text:"keepmyinventory.let_vanish", color:yellow}, {text:" - ", color:gray}, {text:"Modifies "}, {text:"keepmyinventory.items", color:gold}, {text:" to ignore vanishing items."}]}
